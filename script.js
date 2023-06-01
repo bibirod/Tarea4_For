@@ -1,0 +1,122 @@
+//1.
+let num=1;
+for (let index = 0; index < 25; index++) {
+    console.log(num);
+    num = num+2;
+    
+}
+//2.
+let pokemons = 
+[ 'bulbasaur',
+  'ivysaur',
+  'venusaur',
+  'charmander',
+  'charmeleon',
+  'charizard',
+  'squirtle',
+  'wartortle',
+  'blastoise',
+  'caterpie',
+  'metapod',
+  'butterfree',
+  'weedle',
+  'kakuna',
+  'beedrill',
+  'pidgey',
+  'pidgeotto',
+  'pidgeot',
+  'rattata',
+  'raticate',
+  'spearow',
+  'fearow',
+  'ekans',
+  'arbok',
+  'pikachu',
+  'raichu',
+  'sandshrew',
+  'sandslash',
+  'nidoran-f',
+  'nidorina',
+  'nidoqueen',
+  'nidoran-m',
+  'nidorino',
+  'nidoking',
+  'clefairy',
+  'clefable',
+  'vulpix',
+  'ninetales',
+  'jigglypuff',
+  'wigglytuff',
+  'zubat',
+  'golbat',
+  'oddish',
+  'gloom',
+  'vileplume',
+  'paras',
+  'parasect',
+  'venonat',
+  'venomoth',
+  'diglett',
+  'dugtrio',
+  'meowth',
+  'persian',
+  'psyduck',
+  'golduck',
+  'mankey',
+  'primeape',
+  'growlithe',
+  'arcanine',
+  'poliwag',
+  'poliwhirl',
+  'poliwrath',
+  'abra',
+  'kadabra',
+  'alakazam',
+  'machop',
+  'machoke',
+  'machamp',
+  'bellsprout',
+  'weepinbell',
+  'victreebel',
+  'tentacool',
+  'tentacruel',
+  'geodude',
+  'graveler',
+  'golem',
+  'ponyta',
+  'rapidash',
+  'slowpoke',
+  'slowbro',
+  'magnemite',
+  'magneton',
+  'farfetchd',
+  'doduo',
+  'dodrio',
+  'seel',
+  'dewgong',
+  'grimer',
+  'muk',
+  'shellder',
+  'cloyster',
+  'gastly',
+  'haunter',
+  'gengar',
+  'onix',
+  'drowzee',
+  'hypno',
+  'krabby',
+  'kingler',
+  'voltorb' ];
+  let numero = prompt("Dime un numero");
+  for (let index = 0; index <=numero; index=index+5) {
+    console.log(pokemons[index]);
+    
+  }
+//3.
+const arreglo= [4,"dos",8,"tres",5,9,1,"cero"];
+for (let index = 0; index < arreglo.length; index++) {
+   if(!isNaN(arreglo[index])){
+    console.log(arreglo[index]);
+   }
+    
+}
